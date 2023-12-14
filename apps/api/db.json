@@ -1,0 +1,1293 @@
+{
+  "exchangeLastUpdated": "2023-12-14T12:15:00.207Z",
+  "currency": {
+    "AED": {
+      "bound": {
+        "upper": 5.96,
+        "lower": 1.985
+      },
+      "current": 3.9749,
+      "exchange": 3.9749
+    },
+    "AFN": {
+      "bound": {
+        "upper": 100,
+        "lower": 38.48
+      },
+      "current": 76.9,
+      "exchange": 76.967
+    },
+    "ALL": {
+      "bound": {
+        "upper": 156.03,
+        "lower": 52.01
+      },
+      "current": 104.0218,
+      "exchange": 104.0218
+    },
+    "AMD": {
+      "bound": {
+        "upper": 652.53,
+        "lower": 217.51
+      },
+      "current": 435.0241,
+      "exchange": 435.0241
+    },
+    "ANG": {
+      "bound": {
+        "upper": 2.9,
+        "lower": 0.96
+      },
+      "current": 1.9374,
+      "exchange": 1.9374
+    },
+    "AOA": {
+      "bound": {
+        "upper": 1365.96,
+        "lower": 455.32
+      },
+      "current": 910.6425,
+      "exchange": 910.6425
+    },
+    "ARS": {
+      "bound": {
+        "upper": 1298.77,
+        "lower": 432.92
+      },
+      "current": 865.8521,
+      "exchange": 865.8521
+    },
+    "AUD": {
+      "bound": {
+        "upper": 2.45,
+        "lower": 0.81
+      },
+      "current": 1.6388,
+      "exchange": 1.6388
+    },
+    "AWG": {
+      "bound": {
+        "upper": 2.9,
+        "lower": 0.96
+      },
+      "current": 1.9374,
+      "exchange": 1.9374
+    },
+    "AZN": {
+      "bound": {
+        "upper": 2.73,
+        "lower": 0.91
+      },
+      "current": 1.8232,
+      "exchange": 1.8232
+    },
+    "BAM": {
+      "bound": {
+        "upper": 2.93,
+        "lower": 0.97
+      },
+      "current": 1.9558,
+      "exchange": 1.9558
+    },
+    "BBD": {
+      "bound": {
+        "upper": 3.24,
+        "lower": 1.08
+      },
+      "current": 2.1647,
+      "exchange": 2.1647
+    },
+    "BDT": {
+      "bound": {
+        "upper": 178.95,
+        "lower": 59.65
+      },
+      "current": 119.3065,
+      "exchange": 119.3065
+    },
+    "BGN": {
+      "bound": {
+        "upper": 2.93,
+        "lower": 0.97
+      },
+      "current": 1.9558,
+      "exchange": 1.9558
+    },
+    "BHD": {
+      "bound": {
+        "upper": 0.61,
+        "lower": 0.2
+      },
+      "current": 0.407,
+      "exchange": 0.407
+    },
+    "BIF": {
+      "bound": {
+        "upper": 4599.64,
+        "lower": 1533.21
+      },
+      "current": 3066.4329,
+      "exchange": 3066.4329
+    },
+    "BMD": {
+      "bound": {
+        "upper": 1.62,
+        "lower": 0.54
+      },
+      "current": 1.0823,
+      "exchange": 1.0823
+    },
+    "BND": {
+      "bound": {
+        "upper": 2.17,
+        "lower": 0.72
+      },
+      "current": 1.4496,
+      "exchange": 1.4496
+    },
+    "BOB": {
+      "bound": {
+        "upper": 11.09,
+        "lower": 3.69
+      },
+      "current": 7.3942,
+      "exchange": 7.3942
+    },
+    "BRL": {
+      "bound": {
+        "upper": 8.03,
+        "lower": 2.67
+      },
+      "current": 5.3575,
+      "exchange": 5.3575
+    },
+    "BSD": {
+      "bound": {
+        "upper": 1.62,
+        "lower": 0.54
+      },
+      "current": 1.0823,
+      "exchange": 1.0823
+    },
+    "BTN": {
+      "bound": {
+        "upper": 134.96,
+        "lower": 44.98
+      },
+      "current": 89.9745,
+      "exchange": 89.9745
+    },
+    "BWP": {
+      "bound": {
+        "upper": 22.24,
+        "lower": 7.41
+      },
+      "current": 14.832,
+      "exchange": 14.832
+    },
+    "BYN": {
+      "bound": {
+        "upper": 5.22,
+        "lower": 1.74
+      },
+      "current": 3.4815,
+      "exchange": 3.4815
+    },
+    "BZD": {
+      "bound": {
+        "upper": 3.24,
+        "lower": 1.08
+      },
+      "current": 2.1647,
+      "exchange": 2.1647
+    },
+    "CAD": {
+      "bound": {
+        "upper": 2.2,
+        "lower": 0.73
+      },
+      "current": 1.4671,
+      "exchange": 1.4671
+    },
+    "CDF": {
+      "bound": {
+        "upper": 4412.81,
+        "lower": 1470.93
+      },
+      "current": 2941.8761,
+      "exchange": 2941.8761
+    },
+    "CHF": {
+      "bound": {
+        "upper": 1.41,
+        "lower": 0.47
+      },
+      "current": 0.9465,
+      "exchange": 0.9465
+    },
+    "CLP": {
+      "bound": {
+        "upper": 1427.42,
+        "lower": 475.8
+      },
+      "current": 951.6162,
+      "exchange": 951.6162
+    },
+    "CNY": {
+      "bound": {
+        "upper": 11.63,
+        "lower": 3.87
+      },
+      "current": 7.7558,
+      "exchange": 7.7558
+    },
+    "COP": {
+      "bound": {
+        "upper": 6560.37,
+        "lower": 2186.79
+      },
+      "current": 4373.5852,
+      "exchange": 4373.5852
+    },
+    "CRC": {
+      "bound": {
+        "upper": 848.2,
+        "lower": 282.73
+      },
+      "current": 565.4723,
+      "exchange": 565.4723
+    },
+    "CUP": {
+      "bound": {
+        "upper": 38.96,
+        "lower": 12.98
+      },
+      "current": 25.9762,
+      "exchange": 25.9762
+    },
+    "CVE": {
+      "bound": {
+        "upper": 165.39,
+        "lower": 55.13
+      },
+      "current": 110.265,
+      "exchange": 110.265
+    },
+    "CZK": {
+      "bound": {
+        "upper": 36.7,
+        "lower": 12.23
+      },
+      "current": 24.4688,
+      "exchange": 24.4688
+    },
+    "DJF": {
+      "bound": {
+        "upper": 288.53,
+        "lower": 96.17
+      },
+      "current": 192.3549,
+      "exchange": 192.3549
+    },
+    "DKK": {
+      "bound": {
+        "upper": 11.18,
+        "lower": 3.72
+      },
+      "current": 7.4591,
+      "exchange": 7.4591
+    },
+    "DOP": {
+      "bound": {
+        "upper": 91.24,
+        "lower": 30.41
+      },
+      "current": 60.831,
+      "exchange": 60.831
+    },
+    "DZD": {
+      "bound": {
+        "upper": 217.43,
+        "lower": 72.47
+      },
+      "current": 144.9567,
+      "exchange": 144.9567
+    },
+    "EGP": {
+      "bound": {
+        "upper": 50.36,
+        "lower": 16.78
+      },
+      "current": 33.575,
+      "exchange": 33.575
+    },
+    "ERN": {
+      "bound": {
+        "upper": 24.35,
+        "lower": 8.11
+      },
+      "current": 16.2351,
+      "exchange": 16.2351
+    },
+    "ETB": {
+      "bound": {
+        "upper": 91.11,
+        "lower": 30.37
+      },
+      "current": 60.7415,
+      "exchange": 60.7415
+    },
+    "FJD": {
+      "bound": {
+        "upper": 3.63,
+        "lower": 1.21
+      },
+      "current": 2.4201,
+      "exchange": 2.4201
+    },
+    "FKP": {
+      "bound": {
+        "upper": 1.29,
+        "lower": 0.43
+      },
+      "current": 0.8615,
+      "exchange": 0.8615
+    },
+    "FOK": {
+      "bound": {
+        "upper": 11.18,
+        "lower": 3.72
+      },
+      "current": 7.4588,
+      "exchange": 7.4588
+    },
+    "GBP": {
+      "bound": {
+        "upper": 1.29,
+        "lower": 0.43
+      },
+      "current": 0.8615,
+      "exchange": 0.8615
+    },
+    "GEL": {
+      "bound": {
+        "upper": 4.31,
+        "lower": 1.43
+      },
+      "current": 2.8781,
+      "exchange": 2.8781
+    },
+    "GGP": {
+      "bound": {
+        "upper": 1.29,
+        "lower": 0.43
+      },
+      "current": 0.8615,
+      "exchange": 0.8615
+    },
+    "GHS": {
+      "bound": {
+        "upper": 19.63,
+        "lower": 6.54
+      },
+      "current": 13.0872,
+      "exchange": 13.0872
+    },
+    "GIP": {
+      "bound": {
+        "upper": 1.29,
+        "lower": 0.43
+      },
+      "current": 0.8615,
+      "exchange": 0.8615
+    },
+    "GMD": {
+      "bound": {
+        "upper": 106.73,
+        "lower": 35.57
+      },
+      "current": 71.1553,
+      "exchange": 71.1553
+    },
+    "GNF": {
+      "bound": {
+        "upper": 13898.76,
+        "lower": 4632.92
+      },
+      "current": 9265.8437,
+      "exchange": 9265.8437
+    },
+    "GTQ": {
+      "bound": {
+        "upper": 12.55,
+        "lower": 4.18
+      },
+      "current": 8.3683,
+      "exchange": 8.3683
+    },
+    "GYD": {
+      "bound": {
+        "upper": 338.52,
+        "lower": 112.84
+      },
+      "current": 225.6836,
+      "exchange": 225.6836
+    },
+    "HKD": {
+      "bound": {
+        "upper": 12.67,
+        "lower": 4.22
+      },
+      "current": 8.451,
+      "exchange": 8.451
+    },
+    "HNL": {
+      "bound": {
+        "upper": 39.56,
+        "lower": 13.18
+      },
+      "current": 26.3734,
+      "exchange": 26.3734
+    },
+    "HRK": {
+      "bound": {
+        "upper": 11.3,
+        "lower": 3.76
+      },
+      "current": 7.5345,
+      "exchange": 7.5345
+    },
+    "HTG": {
+      "bound": {
+        "upper": 214.38,
+        "lower": 71.45
+      },
+      "current": 142.92,
+      "exchange": 142.92
+    },
+    "HUF": {
+      "bound": {
+        "upper": 570.32,
+        "lower": 190.1
+      },
+      "current": 380.2187,
+      "exchange": 380.2187
+    },
+    "IDR": {
+      "bound": {
+        "upper": 25271.04,
+        "lower": 8423.68
+      },
+      "current": 16847.3662,
+      "exchange": 16847.3662
+    },
+    "ILS": {
+      "bound": {
+        "upper": 5.98,
+        "lower": 1.99
+      },
+      "current": 3.9924,
+      "exchange": 3.9924
+    },
+    "IMP": {
+      "bound": {
+        "upper": 1.29,
+        "lower": 0.43
+      },
+      "current": 0.8615,
+      "exchange": 0.8615
+    },
+    "INR": {
+      "bound": {
+        "upper": 134.96,
+        "lower": 44.98
+      },
+      "current": 89.9778,
+      "exchange": 89.9778
+    },
+    "IQD": {
+      "bound": {
+        "upper": 2121.9,
+        "lower": 707.3
+      },
+      "current": 1414.6043,
+      "exchange": 1414.6043
+    },
+    "IRR": {
+      "bound": {
+        "upper": 68864.97,
+        "lower": 22954.99
+      },
+      "current": 45909.9836,
+      "exchange": 45909.9836
+    },
+    "ISK": {
+      "bound": {
+        "upper": 226.18,
+        "lower": 75.39
+      },
+      "current": 150.7894,
+      "exchange": 150.7894
+    },
+    "JEP": {
+      "bound": {
+        "upper": 1.29,
+        "lower": 0.43
+      },
+      "current": 0.8615,
+      "exchange": 0.8615
+    },
+    "JMD": {
+      "bound": {
+        "upper": 249.38,
+        "lower": 83.12
+      },
+      "current": 166.257,
+      "exchange": 166.257
+    },
+    "JOD": {
+      "bound": {
+        "upper": 1.15,
+        "lower": 0.38
+      },
+      "current": 0.7674,
+      "exchange": 0.7674
+    },
+    "JPY": {
+      "bound": {
+        "upper": 234.25,
+        "lower": 78.08
+      },
+      "current": 156.1693,
+      "exchange": 156.1693
+    },
+    "KES": {
+      "bound": {
+        "upper": 249.83,
+        "lower": 83.27
+      },
+      "current": 166.5543,
+      "exchange": 166.5543
+    },
+    "KGS": {
+      "bound": {
+        "upper": 144.54,
+        "lower": 48.18
+      },
+      "current": 96.3641,
+      "exchange": 96.3641
+    },
+    "KHR": {
+      "bound": {
+        "upper": 6648.64,
+        "lower": 2216.21
+      },
+      "current": 4432.4267,
+      "exchange": 4432.4267
+    },
+    "KID": {
+      "bound": {
+        "upper": 2.45,
+        "lower": 0.81
+      },
+      "current": 1.6398,
+      "exchange": 1.6398
+    },
+    "KMF": {
+      "bound": {
+        "upper": 737.95,
+        "lower": 245.98
+      },
+      "current": 491.9678,
+      "exchange": 491.9678
+    },
+    "KRW": {
+      "bound": {
+        "upper": 2136.23,
+        "lower": 712.07
+      },
+      "current": 1424.1576,
+      "exchange": 1424.1576
+    },
+    "KWD": {
+      "bound": {
+        "upper": 0.49,
+        "lower": 0.16
+      },
+      "current": 0.3316,
+      "exchange": 0.3316
+    },
+    "KYD": {
+      "bound": {
+        "upper": 1.35,
+        "lower": 0.45
+      },
+      "current": 0.902,
+      "exchange": 0.902
+    },
+    "KZT": {
+      "bound": {
+        "upper": 744.36,
+        "lower": 248.12
+      },
+      "current": 496.2421,
+      "exchange": 496.2421
+    },
+    "LAK": {
+      "bound": {
+        "upper": 33041.81,
+        "lower": 11013.93
+      },
+      "current": 22027.8746,
+      "exchange": 22027.8746
+    },
+    "LBP": {
+      "bound": {
+        "upper": 24352.69,
+        "lower": 8117.56
+      },
+      "current": 16235.1323,
+      "exchange": 16235.1323
+    },
+    "LKR": {
+      "bound": {
+        "upper": 528.45,
+        "lower": 176.15
+      },
+      "current": 352.3015,
+      "exchange": 352.3015
+    },
+    "LRD": {
+      "bound": {
+        "upper": 306.03,
+        "lower": 102.01
+      },
+      "current": 204.0217,
+      "exchange": 204.0217
+    },
+    "LSL": {
+      "bound": {
+        "upper": 30.66,
+        "lower": 10.22
+      },
+      "current": 20.4432,
+      "exchange": 20.4432
+    },
+    "LYD": {
+      "bound": {
+        "upper": 7.82,
+        "lower": 2.6
+      },
+      "current": 5.2146,
+      "exchange": 5.2146
+    },
+    "MAD": {
+      "bound": {
+        "upper": 16.45,
+        "lower": 5.48
+      },
+      "current": 10.9686,
+      "exchange": 10.9686
+    },
+    "MDL": {
+      "bound": {
+        "upper": 28.8,
+        "lower": 9.6
+      },
+      "current": 19.2016,
+      "exchange": 19.2016
+    },
+    "MGA": {
+      "bound": {
+        "upper": 7371.18,
+        "lower": 2457.06
+      },
+      "current": 4914.1248,
+      "exchange": 4914.1248
+    },
+    "MKD": {
+      "bound": {
+        "upper": 92.22,
+        "lower": 30.74
+      },
+      "current": 61.4856,
+      "exchange": 61.4856
+    },
+    "MMK": {
+      "bound": {
+        "upper": 4076.38,
+        "lower": 1358.79
+      },
+      "current": 2717.5889,
+      "exchange": 2717.5889
+    },
+    "MNT": {
+      "bound": {
+        "upper": 5566.57,
+        "lower": 1855.52
+      },
+      "current": 3711.0509,
+      "exchange": 3711.0509
+    },
+    "MOP": {
+      "bound": {
+        "upper": 13.05,
+        "lower": 4.35
+      },
+      "current": 8.704,
+      "exchange": 8.704
+    },
+    "MRU": {
+      "bound": {
+        "upper": 63.98,
+        "lower": 21.32
+      },
+      "current": 42.6578,
+      "exchange": 42.6578
+    },
+    "MUR": {
+      "bound": {
+        "upper": 71.06,
+        "lower": 23.68
+      },
+      "current": 47.3763,
+      "exchange": 47.3763
+    },
+    "MVR": {
+      "bound": {
+        "upper": 24.74,
+        "lower": 8.24
+      },
+      "current": 16.4967,
+      "exchange": 16.4967
+    },
+    "MWK": {
+      "bound": {
+        "upper": 2742.06,
+        "lower": 914.02
+      },
+      "current": 1828.0425,
+      "exchange": 1828.0425
+    },
+    "MXN": {
+      "bound": {
+        "upper": 28.15,
+        "lower": 9.38
+      },
+      "current": 18.7729,
+      "exchange": 18.7729
+    },
+    "MYR": {
+      "bound": {
+        "upper": 7.61,
+        "lower": 2.53
+      },
+      "current": 5.0752,
+      "exchange": 5.0752
+    },
+    "MZN": {
+      "bound": {
+        "upper": 103.49,
+        "lower": 34.49
+      },
+      "current": 68.9944,
+      "exchange": 68.9944
+    },
+    "NAD": {
+      "bound": {
+        "upper": 30.66,
+        "lower": 10.22
+      },
+      "current": 20.4432,
+      "exchange": 20.4432
+    },
+    "NGN": {
+      "bound": {
+        "upper": 1257.33,
+        "lower": 419.11
+      },
+      "current": 838.2222,
+      "exchange": 838.2222
+    },
+    "NIO": {
+      "bound": {
+        "upper": 58.66,
+        "lower": 19.55
+      },
+      "current": 39.1071,
+      "exchange": 39.1071
+    },
+    "NOK": {
+      "bound": {
+        "upper": 17.66,
+        "lower": 5.88
+      },
+      "current": 11.777,
+      "exchange": 11.777
+    },
+    "NPR": {
+      "bound": {
+        "upper": 215.93,
+        "lower": 71.97
+      },
+      "current": 143.9592,
+      "exchange": 143.9592
+    },
+    "NZD": {
+      "bound": {
+        "upper": 2.64,
+        "lower": 0.88
+      },
+      "current": 1.7611,
+      "exchange": 1.7611
+    },
+    "OMR": {
+      "bound": {
+        "upper": 0.62,
+        "lower": 0.2
+      },
+      "current": 0.4162,
+      "exchange": 0.4162
+    },
+    "PAB": {
+      "bound": {
+        "upper": 1.62,
+        "lower": 0.54
+      },
+      "current": 1.0823,
+      "exchange": 1.0823
+    },
+    "PEN": {
+      "bound": {
+        "upper": 6.13,
+        "lower": 2.04
+      },
+      "current": 4.0915,
+      "exchange": 4.0915
+    },
+    "PGK": {
+      "bound": {
+        "upper": 5.95,
+        "lower": 1.98
+      },
+      "current": 3.9718,
+      "exchange": 3.9718
+    },
+    "PHP": {
+      "bound": {
+        "upper": 90.7,
+        "lower": 30.23
+      },
+      "current": 60.47,
+      "exchange": 60.47
+    },
+    "PKR": {
+      "bound": {
+        "upper": 459.82,
+        "lower": 153.27
+      },
+      "current": 306.5479,
+      "exchange": 306.5479
+    },
+    "PLN": {
+      "bound": {
+        "upper": 6.47,
+        "lower": 2.15
+      },
+      "current": 4.3135,
+      "exchange": 4.3135
+    },
+    "PYG": {
+      "bound": {
+        "upper": 11826.65,
+        "lower": 3942.21
+      },
+      "current": 7884.4392,
+      "exchange": 7884.4392
+    },
+    "QAR": {
+      "bound": {
+        "upper": 5.9,
+        "lower": 1.96
+      },
+      "current": 3.9397,
+      "exchange": 3.9397
+    },
+    "RON": {
+      "bound": {
+        "upper": 7.46,
+        "lower": 2.48
+      },
+      "current": 4.9734,
+      "exchange": 4.9734
+    },
+    "RSD": {
+      "bound": {
+        "upper": 175.76,
+        "lower": 58.58
+      },
+      "current": 117.1766,
+      "exchange": 117.1766
+    },
+    "RUB": {
+      "bound": {
+        "upper": 145.87,
+        "lower": 48.62
+      },
+      "current": 97.248,
+      "exchange": 97.248
+    },
+    "RWF": {
+      "bound": {
+        "upper": 2017.46,
+        "lower": 672.48
+      },
+      "current": 1344.9795,
+      "exchange": 1344.9795
+    },
+    "SAR": {
+      "bound": {
+        "upper": 6.08,
+        "lower": 2.02
+      },
+      "current": 4.0588,
+      "exchange": 4.0588
+    },
+    "SBD": {
+      "bound": {
+        "upper": 13.65,
+        "lower": 4.55
+      },
+      "current": 9.1026,
+      "exchange": 9.1026
+    },
+    "SCR": {
+      "bound": {
+        "upper": 22.1,
+        "lower": 7.36
+      },
+      "current": 14.738,
+      "exchange": 14.738
+    },
+    "SDG": {
+      "bound": {
+        "upper": 723.72,
+        "lower": 241.24
+      },
+      "current": 482.4848,
+      "exchange": 482.4848
+    },
+    "SEK": {
+      "bound": {
+        "upper": 16.87,
+        "lower": 5.62
+      },
+      "current": 11.2478,
+      "exchange": 11.2478
+    },
+    "SGD": {
+      "bound": {
+        "upper": 2.17,
+        "lower": 0.72
+      },
+      "current": 1.4495,
+      "exchange": 1.4495
+    },
+    "SHP": {
+      "bound": {
+        "upper": 1.29,
+        "lower": 0.43
+      },
+      "current": 0.8615,
+      "exchange": 0.8615
+    },
+    "SLE": {
+      "bound": {
+        "upper": 37,
+        "lower": 12.33
+      },
+      "current": 24.6727,
+      "exchange": 24.6727
+    },
+    "SLL": {
+      "bound": {
+        "upper": 37007.11,
+        "lower": 12335.7
+      },
+      "current": 24671.4092,
+      "exchange": 24671.4092
+    },
+    "SOS": {
+      "bound": {
+        "upper": 925.13,
+        "lower": 308.37
+      },
+      "current": 616.757,
+      "exchange": 616.757
+    },
+    "SRD": {
+      "bound": {
+        "upper": 60.67,
+        "lower": 20.22
+      },
+      "current": 40.4517,
+      "exchange": 40.4517
+    },
+    "SSP": {
+      "bound": {
+        "upper": 1738.79,
+        "lower": 579.59
+      },
+      "current": 1159.1956,
+      "exchange": 1159.1956
+    },
+    "STN": {
+      "bound": {
+        "upper": 36.75,
+        "lower": 12.25
+      },
+      "current": 24.5,
+      "exchange": 24.5
+    },
+    "SYP": {
+      "bound": {
+        "upper": 20695.93,
+        "lower": 6898.64
+      },
+      "current": 13797.2922,
+      "exchange": 13797.2922
+    },
+    "SZL": {
+      "bound": {
+        "upper": 30.66,
+        "lower": 10.22
+      },
+      "current": 20.4432,
+      "exchange": 20.4432
+    },
+    "THB": {
+      "bound": {
+        "upper": 57.71,
+        "lower": 19.23
+      },
+      "current": 38.4743,
+      "exchange": 38.4743
+    },
+    "TJS": {
+      "bound": {
+        "upper": 17.69,
+        "lower": 5.89
+      },
+      "current": 11.7984,
+      "exchange": 11.7984
+    },
+    "TMT": {
+      "bound": {
+        "upper": 5.65,
+        "lower": 1.88
+      },
+      "current": 3.7723,
+      "exchange": 3.7723
+    },
+    "TND": {
+      "bound": {
+        "upper": 5.05,
+        "lower": 1.68
+      },
+      "current": 3.3718,
+      "exchange": 3.3718
+    },
+    "TOP": {
+      "bound": {
+        "upper": 3.78,
+        "lower": 1.26
+      },
+      "current": 2.5247,
+      "exchange": 2.5247
+    },
+    "TRY": {
+      "bound": {
+        "upper": 47.2,
+        "lower": 15.73
+      },
+      "current": 31.4689,
+      "exchange": 31.4689
+    },
+    "TTD": {
+      "bound": {
+        "upper": 11.43,
+        "lower": 3.81
+      },
+      "current": 7.6208,
+      "exchange": 7.6208
+    },
+    "TVD": {
+      "bound": {
+        "upper": 2.45,
+        "lower": 0.81
+      },
+      "current": 1.6398,
+      "exchange": 1.6398
+    },
+    "TWD": {
+      "bound": {
+        "upper": 51.15,
+        "lower": 17.05
+      },
+      "current": 34.1054,
+      "exchange": 34.1054
+    },
+    "TZS": {
+      "bound": {
+        "upper": 4069.49,
+        "lower": 1356.49
+      },
+      "current": 2712.9967,
+      "exchange": 2712.9967
+    },
+    "UAH": {
+      "bound": {
+        "upper": 59.88,
+        "lower": 19.96
+      },
+      "current": 39.9266,
+      "exchange": 39.9266
+    },
+    "UGX": {
+      "bound": {
+        "upper": 6147.81,
+        "lower": 2049.27
+      },
+      "current": 4098.5416,
+      "exchange": 4098.5416
+    },
+    "USD": {
+      "bound": {
+        "upper": 1.62,
+        "lower": 0.54
+      },
+      "current": 1.0828,
+      "exchange": 1.0828
+    },
+    "UYU": {
+      "bound": {
+        "upper": 63.47,
+        "lower": 21.15
+      },
+      "current": 42.3184,
+      "exchange": 42.3184
+    },
+    "UZS": {
+      "bound": {
+        "upper": 19895.22,
+        "lower": 6631.74
+      },
+      "current": 13263.4862,
+      "exchange": 13263.4862
+    },
+    "VES": {
+      "bound": {
+        "upper": 57.64,
+        "lower": 19.21
+      },
+      "current": 38.4332,
+      "exchange": 38.4332
+    },
+    "VND": {
+      "bound": {
+        "upper": 38992.84,
+        "lower": 12997.61
+      },
+      "current": 25995.228,
+      "exchange": 25995.228
+    },
+    "VUV": {
+      "bound": {
+        "upper": 192.9,
+        "lower": 64.3
+      },
+      "current": 128.6042,
+      "exchange": 128.6042
+    },
+    "WST": {
+      "bound": {
+        "upper": 4.39,
+        "lower": 1.46
+      },
+      "current": 2.9283,
+      "exchange": 2.9283
+    },
+    "XAF": {
+      "bound": {
+        "upper": 983.93,
+        "lower": 327.97
+      },
+      "current": 655.957,
+      "exchange": 655.957
+    },
+    "XCD": {
+      "bound": {
+        "upper": 4.38,
+        "lower": 1.46
+      },
+      "current": 2.9223,
+      "exchange": 2.9223
+    },
+    "XDR": {
+      "bound": {
+        "upper": 1.21,
+        "lower": 0.4
+      },
+      "current": 0.8121,
+      "exchange": 0.8121
+    },
+    "XOF": {
+      "bound": {
+        "upper": 983.93,
+        "lower": 327.97
+      },
+      "current": 655.957,
+      "exchange": 655.957
+    },
+    "XPF": {
+      "bound": {
+        "upper": 178.99,
+        "lower": 59.66
+      },
+      "current": 119.332,
+      "exchange": 119.332
+    },
+    "YER": {
+      "bound": {
+        "upper": 400.99,
+        "lower": 133.66
+      },
+      "current": 267.3303,
+      "exchange": 267.3303
+    },
+    "ZAR": {
+      "bound": {
+        "upper": 30.66,
+        "lower": 10.22
+      },
+      "current": 20.4433,
+      "exchange": 20.4433
+    },
+    "ZMW": {
+      "bound": {
+        "upper": 39.66,
+        "lower": 13.22
+      },
+      "current": 26.4438,
+      "exchange": 26.4438
+    },
+    "ZWL": {
+      "bound": {
+        "upper": 9554.73,
+        "lower": 3184.91
+      },
+      "current": 6369.8213,
+      "exchange": 6369.8213
+    }
+  }
+}
