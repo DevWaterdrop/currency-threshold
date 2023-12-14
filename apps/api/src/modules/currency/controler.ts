@@ -10,10 +10,17 @@ CurrencyRouter.get('/currency', async (_req, res) => {
 
 CurrencyRouter.patch('/currency/:currencyKey', async (req, res) => {
   const { currencyKey } = req.params;
-  const { upper, current, lower } = req.body;
+  const { upper, current, lower, favorite, visible } = req.body;
 
   const uppercaseKey = currencyKey.toUpperCase();
-  const data = await setCurrency(uppercaseKey, current, upper, lower);
+  const data = await setCurrency(
+    uppercaseKey,
+    current,
+    upper,
+    lower,
+    favorite,
+    visible
+  );
 
   return res.json(data);
 });

@@ -7,4 +7,6 @@ export interface Currency {
   bound: CurrencyBound;
   current: number;
   exchange: number;
+  visible: boolean;
+  favorite: boolean;
 }

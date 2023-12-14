@@ -1,7 +1,10 @@
+import { Currency } from '@repo/structure';
+import { roundByTwo } from '@repo/utils';
 import { DBFile, readDB, saveDB } from 'db';
-import { roundByTwo } from 'helpers';
+
 import { sendEmailNotification } from 'modules/notification/service';
 import cron from 'node-cron';
+import { PREFERRED_CURRENCIES } from 'shared/const';
 
 interface ExchangeData {
   conversion_rates: Record<string, number>;
@@ -17,45 +20,57 @@ const getExchangeRate = async () => {
   return data as ExchangeData;
 };
 
+const sendNotification = async (currency: Currency, rate = 10) => {
+  if (!currency.visible) return;
+
+  if (rate < currency.bound.lower) {
+    await sendEmailNotification(`${currency}: LOWER ${rate}`);
+  }
+
+  if (rate > currency.bound.upper) {
+    await sendEmailNotification(`${currency}: UPPER ${rate}`);
+  }
+};
+
 const cronExchangeRate = async (dbFile: DBFile) => {
-  dbFile.exchangeLastUpdated = new Date(Date.now()).toISOString();
+  const cloneDB = structuredClone(dbFile);
+
+  cloneDB.exchangeLastUpdated = new Date(Date.now()).toISOString();
   const exchangeRate = await getExchangeRate();
 
   for (const [currency, rate] of Object.entries(
     exchangeRate.conversion_rates
   )) {
     if (currency === 'EUR') continue;
-
-    let currentCurrency = dbFile.currency[currency];
+    let currentCurrency = structuredClone(cloneDB.currency[currency]);
 
     if (!currentCurrency) {
+      const preferred = PREFERRED_CURRENCIES.includes(currency);
+
       currentCurrency = {
         bound: { upper: roundByTwo(rate * 1.5), lower: roundByTwo(rate * 0.5) },
         current: rate,
         exchange: rate,
+        visible: preferred,
+        favorite: preferred,
       };
     } else {
       currentCurrency.exchange = rate;
-
-      if (rate < currentCurrency.bound.lower) {
-        await sendEmailNotification(`${currency}: LOWER ${rate}`);
-      }
-
-      if (rate > currentCurrency.bound.upper) {
-        await sendEmailNotification(`${currency}: UPPER ${rate}`);
-      }
+      await sendNotification(currentCurrency, rate);
     }
 
-    dbFile.currency[currency] = currentCurrency;
+    cloneDB.currency[currency] = currentCurrency;
   }
+
+  return cloneDB;
 };
 
 export const setupCron = async () => {
   // init
   const dbFile = await readDB();
   if (!dbFile.exchangeLastUpdated) {
-    await cronExchangeRate(dbFile);
-    await saveDB(dbFile);
+    const db = await cronExchangeRate(dbFile);
+    await saveDB(db);
   }
 
   // Every 15 minute
@@ -63,7 +78,7 @@ export const setupCron = async () => {
     console.log('-- CRON --');
 
     const dbFile = await readDB();
-    await cronExchangeRate(dbFile);
-    await saveDB(dbFile);
+    const db = await cronExchangeRate(dbFile);
+    await saveDB(db);
   });
 };

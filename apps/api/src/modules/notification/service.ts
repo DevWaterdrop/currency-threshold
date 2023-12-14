@@ -1,20 +1,28 @@
 import nodemailer from 'nodemailer';
+import { MailOptions } from 'nodemailer/lib/json-transport';
 
 export const sendEmailNotification = async (text: string) => {
-  // TODO: Test
   const transporter = nodemailer.createTransport({
-    host: 'sandbox.smtp.mailtrap.io',
+    host: process.env.MAILTRAP_HOST,
     port: 2525,
     auth: {
-      user: '1f3d784cf642bf',
-      pass: '********8fa6',
+      user: process.env.MAILTRAP_USER,
+      pass: process.env.MAILTRAP_PASS,
     },
   });
 
-  const mailOptions = {
-    subject: 'Test',
+  const mailOptions: MailOptions = {
+    from: process.env.MAILTRAP_SENDER,
+    to: process.env.MAILTRAP_RECEIVER,
+    subject: 'Notification - Currency',
     text,
   };
 
-  await transporter.sendMail(mailOptions);
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.error('Error sending email\n', error);
+    } else {
+      console.log('Email sent: ' + info.response);
+    }
+  });
 };

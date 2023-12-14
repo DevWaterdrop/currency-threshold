@@ -1,10 +1,15 @@
 import { setupCron } from 'cron';
 import { createServer } from './server';
+import { setupDB } from 'db';
 
-const port = process.env.PORT || 3001;
-const server = createServer();
-setupCron();
+(async () => {
+  const port = process.env.PORT || 3001;
+  const server = createServer();
 
-server.listen(port, () => {
-  console.log(`api running on ${port}`);
-});
+  await setupDB();
+  await setupCron();
+
+  server.listen(port, () => {
+    console.log(`api running on ${port}`);
+  });
+})();

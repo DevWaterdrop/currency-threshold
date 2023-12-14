@@ -2,6 +2,7 @@ import './styles.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Providers } from './providers';
+import clsx from 'clsx';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Providers>
-        <body className={(inter.className, 'bg-gray-200')}>{children}</body>
+        <body className={clsx(inter.className, 'bg-gray-200')}>{children}</body>
       </Providers>
     </html>
   );

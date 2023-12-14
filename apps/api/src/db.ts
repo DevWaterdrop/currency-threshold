@@ -1,5 +1,6 @@
-import fs from 'fs/promises';
-import { Currency } from 'modules/currency/model';
+import { Currency } from '@repo/structure';
+import fsPromises from 'fs/promises';
+import fs from 'fs';
 import path from 'path';
 
 const DB_PATH = path.join(__dirname, '../db.json');
@@ -9,9 +10,21 @@ export interface DBFile {
   currency: Record<string, Currency>;
 }
 
+export const setupDB = async () => {
+  if (fs.existsSync(DB_PATH)) return;
+  await fsPromises.writeFile(
+    DB_PATH,
+    JSON.stringify(
+      { exchangeLastUpdated: null, currency: {} } as DBFile,
+      null,
+      2
+    )
+  );
+};
+
 export const readDB = async () => {
   try {
-    const file = (await fs.readFile(DB_PATH)).toString('utf-8');
+    const file = (await fsPromises.readFile(DB_PATH)).toString('utf-8');
     const json = JSON.parse(file);
 
     return json as DBFile;
@@ -22,7 +35,7 @@ export const readDB = async () => {
 
 export const saveDB = async (file: Record<any, any>) => {
   try {
-    await fs.writeFile(DB_PATH, JSON.stringify(file, null, 2));
+    await fsPromises.writeFile(DB_PATH, JSON.stringify(file, null, 2));
     return true;
   } catch (e) {
     return false;
