@@ -20,15 +20,19 @@ const getExchangeRate = async () => {
   return data as ExchangeData;
 };
 
-const sendNotification = async (currency: Currency, rate = 10) => {
+const sendNotification = async (
+  currencyKey: string,
+  currency: Currency,
+  rate = 10
+) => {
   if (!currency.visible) return;
 
   if (rate < currency.bound.lower) {
-    await sendEmailNotification(`${currency}: LOWER ${rate}`);
+    await sendEmailNotification(`${currencyKey}: LOWER ${rate}`);
   }
 
   if (rate > currency.bound.upper) {
-    await sendEmailNotification(`${currency}: UPPER ${rate}`);
+    await sendEmailNotification(`${currencyKey}: UPPER ${rate}`);
   }
 };
 
@@ -38,14 +42,14 @@ const cronExchangeRate = async (dbFile: DBFile) => {
   cloneDB.exchangeLastUpdated = new Date(Date.now()).toISOString();
   const exchangeRate = await getExchangeRate();
 
-  for (const [currency, rate] of Object.entries(
+  for (const [currencyKey, rate] of Object.entries(
     exchangeRate.conversion_rates
   )) {
-    if (currency === 'EUR') continue;
-    let currentCurrency = structuredClone(cloneDB.currency[currency]);
+    if (currencyKey === 'EUR') continue;
+    let currentCurrency = structuredClone(cloneDB.currency[currencyKey]);
 
     if (!currentCurrency) {
-      const preferred = PREFERRED_CURRENCIES.includes(currency);
+      const preferred = PREFERRED_CURRENCIES.includes(currencyKey);
 
       currentCurrency = {
         bound: { upper: roundByTwo(rate * 1.5), lower: roundByTwo(rate * 0.5) },
@@ -56,10 +60,10 @@ const cronExchangeRate = async (dbFile: DBFile) => {
       };
     } else {
       currentCurrency.exchange = rate;
-      await sendNotification(currentCurrency, rate);
+      await sendNotification(currencyKey, currentCurrency, rate);
     }
 
-    cloneDB.currency[currency] = currentCurrency;
+    cloneDB.currency[currencyKey] = currentCurrency;
   }
 
   return cloneDB;
@@ -73,7 +77,7 @@ export const setupCron = async () => {
     await saveDB(db);
   }
 
-  // Every 15 minute
+  // Every 15 minutes
   cron.schedule('0 */15 * * * *', async () => {
     console.log('-- CRON --');
 
